@@ -57,6 +57,7 @@ body{
   margin-right:9%;
   margin-bottom:9%;
   padding:1%;
+  height:200px;
 }
 
 #text{
@@ -90,4 +91,18 @@ body{
   color:white;
   margin:0;
   font-size:150%;
+}
+.mute{
+  display:content;
+  width:10%;
+  float:right;
+}
+.onmute{
+  display:none;
+  width:10%;
+  float:right;
+}
+
+.right{
+  margin-top:13%;
 }
