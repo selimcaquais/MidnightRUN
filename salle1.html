@@ -7,18 +7,23 @@
   <title>Document</title>
 </head>
 <body id="jeu">
- <canvas>Le jeux devrait s'afficher ici</canvas>
 
+  <audio src="music/salle1.js.mp3" autoplay loop></audio>
+ <canvas>Le jeux devrait s'afficher ici</canvas>
+ <div class="right">
+  <img class="mute" src="img/mute/sound.png" alt="">
+  <img class="onmute" src="img/mute/nosound.png" alt="">
     <div id="areatext">
 
       <p id="text"></p>
 
     </div>
-
+</div>
 </body>
 <script src="JS/salles/salle1.js"></script>
 <script src="JS/initialisation.js"></script>
 <script src="JS/move.js"></script>
 <script src="JS/loop.js"></script>
+<script src="JS/mute.js"></script>
 
 </html>
