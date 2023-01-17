@@ -14,7 +14,7 @@ yPerso = 104;
 
 let tableauDiscussion= { // phrase de base du personnage ou de l'objet
   '8,4' : "Je sais pas ce que je fais ici, je me suis perdu après être passé par la cuisine.. mes souvenirs sont flous.",
-  '11,2' : "Cette bibliothèque est pleine de livres.",
+  '11,3' : "Cette bibliothèque est pleine de livres.",
   '16,2' : "Quelle belle carte du monde",
   '17,2' : "Quelle belle carte du monde",
   '11,8' : "Ce contrat à l'air important",
@@ -31,7 +31,7 @@ let tableauDiscussion= { // phrase de base du personnage ou de l'objet
 // tableau 1 index 0 -> tableau 2 index 1 -> tableau 1 index 1 -> tableau 2 index 2...
 // Ensuite en correspondance à ces tableaux je défini de la même manière l'ordre d'affichage du texte.*/
 ordrerToTalk = ['19,12','19,12','19,12','19,12','19,12'];
-ordrerToTalk2 = ["null",'11,8','11,2','19,7','10,14','20,2'];
+ordrerToTalk2 = ["null",'11,8','11,3','19,7','10,14','20,2'];
 
 orderText = ["- Ugo : Faut que je finisse la paperasse avant d'aller boire un coup en haut.. tu peux m'aider ? Je te donne le badge de l'ascenceur en échange ! Va me chercher la feuille sur la table, en face de la chaise jaune. ",
              "- Ugo : Mmhhh.. Je vois.. Tu peux aller me chercher un livre sur la comptabilité, il est une des étagères.",
@@ -78,8 +78,8 @@ function histoire(array,i,j){
 // Tableau des collisions
 const collisions =[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 861, 861, 861, 861, 138, 861, 861, 861, 861, 138, 138, 861, 861, 138, 861, 861, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 861, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 861, 861, 861, 861, 861, 861, 861, 861, 861, 138, 138, 861, 861, 138, 861, 861, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 861, 861, 861, 861, 138, 861, 861, 861, 861, 0, 0, 861, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 861, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 861, 861, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 861, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 861, 861, 0, 0, 0, 0, 0, 0, 0,
