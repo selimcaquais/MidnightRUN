@@ -1,5 +1,5 @@
 let map = new Image(); // Je déclare ma variable map(ma carte) qui est donc une image
-map.src = 'img/salon/salonParty.png' ; // Source de l'image
+map.src = 'img/salon/SalonParty.png' ; // Source de l'image
 
 let foreground = new Image();// Je déclare ma variable foreground(objet au premier plan), une image
 foreground.src ='img/salon/foreground.png'; // Source de l'image
