@@ -1,0 +1,93 @@
+body{
+  background-image: url('img/background/background.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@font-face{
+  font-family:'pixel';
+  src : url('font/Minecraftia-Regular.ttf') format('truetype');
+
+}
+@font-face{
+  font-family:'neon';
+  src: url('font/Nickainley-Normal.otf') format('OpenType');
+}
+
+.titreJeu{
+  text-align: center;
+  color:#ffcbfb;
+  font-size:500%;
+  text-shadow: 0 0 20px #fa00fa;
+  font-family:'neon';
+  margin:0;
+}
+#run{
+  color:#fffcbd;
+  text-shadow: 0 0 20px yellow;
+}
+#regles{
+  border-radius: 10px 10px;
+  margin-right:20%;
+  margin-left:20%;
+  text-align:center;
+  font-family:'pixel';
+  color: white;
+  font-size:90%;
+  padding:1%;
+  background-color:#22243E;
+}
+#pageAccueil{
+  background-image:url('img/background/backgroundIndex.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jeu{
+  display: flex;
+  padding-top:5%;
+  background-image: url('img/background/background.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#areatext{
+  width:500px;
+  margin-top:16%;
+  background-color:whitesmoke;
+  margin-right:9%;
+  margin-bottom:9%;
+  padding:1%;
+}
+
+#text{
+  font-family:'pixel';
+  font-size: 100%;
+  animation : typing 2s ;
+}
+@keyframes typing{
+  from{opacity:0%;}
+  to {opacity:100%;}
+}
+
+#button{
+  padding-top:1%;
+  font-family:'pixel';
+  font-size:100%;
+  padding-left:2%;
+  padding-right:2%;
+  border:none;
+  border-radius:5px 5px;
+}
+
+#button:hover{
+  background-color:#22243E;
+  color: white;
+}
+
+#texteFin{
+  font-family:pixel;
+  text-align:center;
+  color:white;
+  margin:0;
+  font-size:150%;
+}
