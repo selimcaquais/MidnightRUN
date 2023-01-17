@@ -45,7 +45,7 @@ orderText2 = ["null",
               "La compta pour les nuls récupéré",
               "96 738€, faut que je retienne ce chiffre !",
               "- Tiffany : Merci, va récupéré le badge, au moins toi tu pourras partir..",
-              "Ascenceur déverouiller"];
+              "Ascenseur déverouiller"];
 
 function histoire(array,i,j){
   /*Si la clé array correspond à sa clé dans le bonne ordre de passage alors j'affiche le texte crrespondant.

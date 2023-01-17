@@ -56,7 +56,7 @@ let orderText2 = ["null",
               "- Cuisinière Camille : Il te reste plus qu'un ingrédient à aller chercher.. l'ingrédient secret ! Il se trouve là ou le papillon bleu butine.",
               "- Cuisinière Camille : Maintenant donne ses ingrédients au chef Brian, il t'aidera à cuisiné.",
               "- Gaspard : Merci je me sens encore mieux qu'avant ! Il est ouf ce gâteau !!",
-              "Ascenceur déverouiller !"];
+              "Ascenseur déverouiller !"];
 
 function histoire(array,i,j){
   /*Si la clé array correspond à sa clé dans le bonne ordre de passage alors j'affiche le texte crrespondant.
