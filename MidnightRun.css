@@ -20,6 +20,8 @@ body{
   text-shadow: 0 0 20px #fa00fa;
   font-family:'neon';
   margin:0;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
 }
 #run{
   color:#fffcbd;
@@ -37,27 +39,35 @@ body{
   background-color:#22243E;
 }
 #pageAccueil{
+  margin:0;
   background-image:url('img/background/backgroundIndex.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 #jeu{
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  padding-top:5%;
   background-image: url('img/background/background.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
 }
 
 #areatext{
-  width:500px;
-  margin-top:16%;
+  width:30em;
   background-color:whitesmoke;
   margin-right:9%;
   margin-bottom:9%;
   padding:1%;
-  height:200px;
+  height:20em;
 }
 
 #text{
@@ -71,6 +81,7 @@ body{
 }
 
 #button{
+  margin-top:2em;
   padding-top:1%;
   font-family:'pixel';
   font-size:100%;
@@ -103,6 +114,11 @@ body{
   float:right;
 }
 
-.right{
-  margin-top:13%;
+.wrapper-texteFin{
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

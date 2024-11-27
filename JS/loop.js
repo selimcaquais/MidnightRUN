@@ -8,6 +8,7 @@ function anime() {
     testup=0;
     down=true;
     testdown=0;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     document.addEventListener('keydown', event=>{//Récupération de touche pressé.
         let keyPress = event.key;
         keyE = keyPress

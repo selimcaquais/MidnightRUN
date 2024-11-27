@@ -59,7 +59,7 @@ let orderText2 = ["null",
               "Clé récupéré !"];
 
 function histoire(array,i,j){
-  /*Si la clé array correspond à sa clé dans le bonne ordre de passage alors j'affiche le texte crrespondant.
+  /*Si la clé array correspond à sa clé dans le bonne ordre de passage alors j'affiche le texte correspondant.
     Si j'ai réalisé toute les quêtes(j==6) alors je passe à la salle suivante.
     Si aucune de ses conditions sont réalisés alors j'affiche le texte de base correspondant à l'objet ou au personnage.*/
   if (array == false) {

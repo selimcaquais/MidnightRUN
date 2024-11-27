@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="MidnightRun.css">
-  <title>Document</title>
+  <title>MidNight Run</title>
 </head>
-<body>
+<body id="jeu">
 
-<div id="jeu">
  <canvas>Le jeux devrait s'afficher ici</canvas>
 
     <div id="areatext">
@@ -16,11 +15,10 @@
       <p id="text"></p>
 
     </div>
-</div>
-<div>
-    <p id="texteFin"> Tu es à la fin du jeu. Bien joué !</p>
-</div>
-
+    <div class="wrapper-texteFin">
+      <p id="texteFin"> Tu es à la fin du jeu. Bien joué !</p>
+      <button id="button" onclick="redirectionHome()">Retour au menu</button>
+   </div>
 </body>
 <script src="JS/salles/fin.js"></script>
 <script src="JS/initialisation.js"></script>
@@ -28,3 +26,9 @@
 <script src="JS/loop.js"></script>
 
 </html>
+
+<script>
+  const redirectionHome = () => {
+    document.location.href ='index.html';
+  }
+</script>
