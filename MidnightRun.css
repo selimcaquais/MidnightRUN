@@ -62,12 +62,10 @@ body{
 }
 
 #areatext{
-  width:30em;
+  width:25vw;
   background-color:whitesmoke;
-  margin-right:9%;
-  margin-bottom:9%;
-  padding:1%;
-  height:20em;
+  padding:1em;
+  height:25vh;
 }
 
 #text{
@@ -106,12 +104,10 @@ body{
 .mute{
   display:content;
   width:10%;
-  float:right;
 }
 .onmute{
   display:none;
   width:10%;
-  float:right;
 }
 
 .wrapper-texteFin{
@@ -121,4 +117,20 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.game{
+  width: 60%;
+  height: 60%;
+  padding-right: 5%;
+}
+
+canvas{
+  width: 100%;
 }
